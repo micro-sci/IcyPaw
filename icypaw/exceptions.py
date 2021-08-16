@@ -1,0 +1,11 @@
+# Copyright 2021 National Technology & Engineering Solutions of
+# Sandia, LLC (NTESS). Under the terms of Contract DE-NA0003525 with
+# NTESS, the U.S. Government retains certain rights in this software.
+
+class IcypawException(Exception):
+    """Base class for all exceptions in this framework."""
+    pass
+
+class TahuInterfaceError(IcypawException):
+    """Any exception that can happen in the interface."""
+    pass
